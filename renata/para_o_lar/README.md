@@ -6,6 +6,17 @@
 Vamos utilizar JavaScript e Node.JS
 ```
 
+```
+Você vai precisar instalar os pacotes para rodar o projeto:
+
+1. npm install
+2. npm i nodemon
+3. npm i express
+4. npm i cors
+
+Inicie o servidor com o comando npm start
+```
+
 - Queremos construir um sistema que faça o cadastro de novos clientes na Assistência.
 
 - Liste todos os clientes existentes na Assistência.
