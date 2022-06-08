@@ -16,7 +16,7 @@ Vamos utilizar JavaScript e Node.JS
 
 - Delete o cadastro do cliente.
 
-* Precisamos também construir uma lógica para mapear os motivos/problemas para esse cliente está indo até a Assistência.
+## Precisamos também construir uma lógica para mapear os motivos/problemas para esse cliente está indo até a Assistência.
 
 - Cadastro de todos os motivos/problemas atrelados ao equipamento do cliente.
 
