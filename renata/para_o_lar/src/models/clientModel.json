@@ -1,0 +1,48 @@
+[
+    {
+        "clientId": 1,
+        "name": "Juliano",
+        "lastName": "Marques",
+        "nomeSocial": "",
+        "sexo": "masculino",
+        "orientation": "heterossexual",
+        "idade": 42,
+        "endereco": "Rua São Bento, 352",
+        "telefone": "(21) 22225-1154",
+        "cpf": "222.222.222-22"
+
+    },
+
+    {
+        "clientId": 2,
+        "name": "Marina",
+        "lastName": "Santos",
+        "nomeSocial": "",
+        "idade": 23,
+        "endereco": "Rua Luis Antonio, 155",
+        "telefone": "(56) 22225-2587",
+        "cpf": "222.222.222-23"
+    },
+
+    {
+        "clientId": 3,
+        "name": "Beatriz",
+        "lastName": "Vitória",
+        "nomeSocial": "Mauro Santos",
+        "idade": 36,
+        "endereco": "Av. Pedro Alvares Cabral, 12",
+        "telefone": "(21) 22225-1258",
+        "cpf": "222.222.222-24"
+    },
+
+    {
+        "clientId": 4,
+        "name": "Lucas",
+        "lastName": "Pereira",
+        "nomeSocial": "",
+        "idade": 58,
+        "endereco": "Rua Abílio Soares, 98",
+        "telefone": "(21) 22225-1501",
+        "cpf": "222.222.222-25"
+    }
+]
