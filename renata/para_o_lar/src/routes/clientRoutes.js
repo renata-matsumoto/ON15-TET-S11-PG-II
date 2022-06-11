@@ -8,4 +8,8 @@ const routes = express.Router()
 
 routes.get("/all", controller.allClients)
 
+routes.get("/:id", controller.clientById)
+
+routes.get ("/find/byName", controller.clientByName)
+
 module.exports = routes
