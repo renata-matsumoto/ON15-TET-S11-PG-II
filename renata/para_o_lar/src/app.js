@@ -14,9 +14,10 @@ app.use(cors())
 //Como Fazer as Rotas Funcionarem
 
 const clientRoutes = require("./routes/clientRoutes")
+const salesRoutes = require("./routes/salesRoutes")
 
 
 app.use("/client", clientRoutes)
-
+app.use("/sales", salesRoutes)
 
 module.exports = app

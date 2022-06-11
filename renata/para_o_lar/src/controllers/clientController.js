@@ -99,6 +99,11 @@ const updateClient = (req, res) => {
   try {
     const idRequest = req.params.id
     const callBody = req.body
+
+    // const updateClient = {
+    //   clientId: idRequest,
+    //   name: callBody.name || clients.name
+    // }
     const findClient = clients.find(client => client.clientId == idRequest)
 
     const indice = clients.indexOf(findClient)

@@ -1,0 +1,50 @@
+[
+  {
+    "saleId": 1,
+    "client": 1,
+    "saleDate": "02/06/2022",
+    "reasonTrip": "ferias",
+    "destination": ["Natal","Fortaleza"],
+    "services": ["Voo","Hotel","Passagem"],
+    "total": "R$ 1.000,00",
+    "payment": ["dinheiro","cartão"]
+
+  },
+  {
+    
+      "saleId": 2,
+      "client": 2,
+      "saleDate": "25/04/2022",
+      "reasonTrip": "trabalho",
+      "destination": ["São Paulo","Rio de Janeiro"],
+      "services": ["Voo","Hotel","Passagem"],
+      "total": "R$ 5.080,00",
+      "payment": "faturamento"  
+    },
+
+    {
+    
+      "saleId": 3,
+      "client": 3,
+      "saleDate": "15/12/2019",
+      "reasonTrip": "lazer",
+      "destination": "Paris",
+      "services": ["Voo","Hotel","Passagem"],
+      "total": "R$ 15.080,00",
+      "payment": "Cartão"  
+    },
+    {
+    
+      "saleId": 4,
+      "client": 2,
+      "saleDate": "26/05/2020",
+      "reasonTrip": "trabalho",
+      "destination": ["Porto Alegre","Curitiba", "Florianópolis"],
+      "services": ["Voo","Hotel"],
+      "total": "R$ 2.500,00",
+      "payment": "faturamento"  
+    }
+
+
+
+]
