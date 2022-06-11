@@ -12,4 +12,10 @@ routes.get("/:id", controller.clientById)
 
 routes.get ("/find/byName", controller.clientByName)
 
+routes.post("/create", controller.createClient)
+
+routes.put("/update/:id", controller.updateClient )
+
+routes.delete("/delete/:id", controller.deleteClient)
+
 module.exports = routes
