@@ -6,32 +6,46 @@ const clients = require("../models/clientModel.json")
 const sales = require("../models/salesModel.json")
 
 
+
+
+
 const allSales = (req, res) => {
   res.status(200).json({
+
     sales,
+  
   })
+
 }
 
 
-
-const salesById = (req, res) => {
+const salesById = (req, res) =>{
   try {
     const idRequest = req.params.id
-    const findId = sales.find(sale => sale.saleId == idRequest)
-    if (!findId) {
+    const cliente = req.query.client
+    const findId = clients.find(client => client.clientId == idRequest)
+    const findClient = sales.filter(sale => sale.client == cliente)
+    if (!findId && !findClient) {
       throw new Error("Id não encontrada")
     }
-    res.status(200).json({
-      findId
-    })
-
-  } catch (error) {
+   console.log(idRequest)
+   console.log(cliente)
+   console.log(findId)
+   console.log(findClient)
+    return res.status(200).json({
+       clients,
+       sales
+      })
+      
+    } catch (error) {
     res.status(500).json({
-      message: error.message,
-      "message:": "Algo de errado aconteceu. Tente novamente."
-    })
-  }
+        message: error.message,
+        "message:" : "Algo de errado aconteceu. Tente novamente."
+      })
+    }
+  
 }
+
 
 
 const salesByReason = (req, res) => {

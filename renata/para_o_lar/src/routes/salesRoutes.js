@@ -6,7 +6,7 @@ const controller = require("../controllers/salesController")
 
 const routes = express.Router()
 
-routes.get("/all", controller.allSales)
+routes.get("/all/:id", controller.allSales)
 
 routes.get("/:id", controller.salesById)
 

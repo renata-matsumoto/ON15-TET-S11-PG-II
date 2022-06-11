@@ -25,7 +25,7 @@
     {
     
       "saleId": 3,
-      "client": 3,
+      "client": 2,
       "saleDate": "15/12/2019",
       "reasonTrip": "lazer",
       "destination": "Paris",
@@ -36,14 +36,66 @@
     {
     
       "saleId": 4,
-      "client": 2,
+      "client": 3,
       "saleDate": "26/05/2020",
       "reasonTrip": "trabalho",
       "destination": ["Porto Alegre","Curitiba", "Florianópolis"],
       "services": ["Voo","Hotel"],
       "total": "R$ 2.500,00",
       "payment": "faturamento"  
+    },
+
+    {
+    
+      "saleId": 4,
+      "client": 4,
+      "saleDate": "26/05/2020",
+      "reasonTrip": "trabalho",
+      "destination": ["Porto Alegre","Curitiba", "Florianópolis"],
+      "services": ["Voo","Hotel"],
+      "total": "R$ 2.500,00",
+      "payment": "faturamento"  
+    },
+
+    {
+    
+      "saleId": 5,
+      "client": 1,
+      "saleDate": "31/12/2015",
+      "reasonTrip": "lazer",
+      "destination": "Rio de Janeiro",
+      "services": ["Voo","Hotel"],
+      "total": "R$ 3.500,00",
+      "payment": "faturamento"  
+    },
+
+    {
+    
+      "saleId": 6,
+      "client": 3,
+      "saleDate": "23/07/2021",
+      "reasonTrip": "trabalho",
+      "destination": ["Porto Alegre","Curitiba", "Florianópolis"],
+      "services": ["Voo","Hotel"],
+      "total": "R$ 2.500,00",
+      "payment": "cheque"  
+    },
+
+    {
+    
+      "saleId": 7,
+      "client": 4,
+      "saleDate": "18/04/2020",
+      "reasonTrip": "saude",
+      "destination": ["São Paulo","Bauru", "Botucatu"],
+      "services": ["Onibus","Hotel"],
+      "total": "R$ 700,00",
+      "payment": "Cartao"  
     }
+
+
+
+
 
 
 
